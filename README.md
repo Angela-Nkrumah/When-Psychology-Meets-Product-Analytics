@@ -22,10 +22,10 @@ The result is a transparent, explainable conversion risk scoring system that hel
 
 
 ## Project Structure
-- 📓 `notebooks/` — Full Python analysis notebook
+- `notebooks/` — Full Python analysis notebook
 
-- 📄 `documentation.md` — Complete methodology, findings and recommendations
+ - `Documentation.md` — Complete methodology, findings and recommendations
 
 
 ## Live Dashboard
-👉 [View Interactive Dashboard](https://datastudio.google.com/reporting/f5f1ea2a-5b3a-42d5-92dc-8112818e0133/page/ACD1F)
+ [View Interactive Dashboard](https://datastudio.google.com/reporting/f5f1ea2a-5b3a-42d5-92dc-8112818e0133/page/ACD1F)
