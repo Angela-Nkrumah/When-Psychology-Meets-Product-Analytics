@@ -21,11 +21,8 @@ The result is a transparent, explainable conversion risk scoring system that hel
 - Rule-based risk scoring successfully separates users into segments ranging from **1.6%** to **95.2%** actual conversion rate.
 
 
-## Project Structure
-- [Saas Trial Conversion Project.ipynb] (Saas Trial Conversion Project.ipynb) — Full Python analysis notebook
-
-  - [Documentation.md] (Documentation.md) — Complete methodology, findings and recommendations
-
+Complete methodology, findings and recommendations
+  [Documentation.md](Documentation.md) 
 
 ## Live Dashboard
  [View Interactive Dashboard](https://datastudio.google.com/reporting/f5f1ea2a-5b3a-42d5-92dc-8112818e0133/page/ACD1F)
