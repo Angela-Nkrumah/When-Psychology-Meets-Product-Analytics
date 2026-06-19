@@ -24,7 +24,7 @@ The result is a transparent, explainable conversion risk scoring system that hel
 ## Project Structure
 - [Saas Trial Conversion Project.ipynb] (Saas Trial Conversion Project.ipynb) — Full Python analysis notebook
 
- - `Documentation.md` — Complete methodology, findings and recommendations
+  - [Documentation.md] (Documentation.md) — Complete methodology, findings and recommendations
 
 
 ## Live Dashboard
