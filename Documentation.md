@@ -115,6 +115,8 @@ To assess user pattern, a higher login frequency was set at (15-50 logins). Long
 
 A fixed random seed of 42 was used across all libraries to ensure full reproducibility of the dataset. The generated dataset was pushed to a Supabase PostgreSQL cloud database using SQLAlchemy and the pandas to_sql() function. All subsequent analysis pulls data directly from the cloud database using pd.read_sql(), mimicking a real world production data pipeline where analysts query live databases rather than working with local files. 
 
+<img width="1917" height="837" alt="Screenshot 2026-06-13 154831" src="https://github.com/user-attachments/assets/b6cdfc57-34a2-4e2c-9bd2-6598538cd445" />
+
 
 ## Data Cleaning & Validation
 The initial check confirms that the dataset is perfectly clean and complete, showing a total of 5,000 trial users, 25 columns, and zero duplicate accounts. All numbers fall strictly within realistic boundaries for NovaMind’s 14-day trial timeline. For example, active days stop exactly at 14, and the time spent per session maxes out at 90 minutes. This proves there are no impossible dates or corrupt rows in the database.
