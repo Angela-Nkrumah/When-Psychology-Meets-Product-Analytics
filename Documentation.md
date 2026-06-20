@@ -86,25 +86,15 @@ This dataset was synthetically generated using Python based on established SaaS 
 
 ## Tools & Technologies
 
-Tool
-Purpose
-Python
- Data generation, cleaning, EDA, ML modelling
-Pandas
-Data manipulation and analysis
-NumPy
-Numerical computations
-Fake
-Synthetic data generation
-Supabase
-Cloud data storage
-Supabase Postgres Database
-Database management
-Data Studio (Looker Studio)
-Dashboard and visualisation
-GitHub
-Version control and documentation
-
+|Tool |Purpose
+|:--- |:---
+|Python |Data generation, cleaning, EDA, ML modelling
+|Pandas |Data manipulation and analysis
+|Fake |Synthetic data generation
+|Supabase |Cloud data storage
+|Supabase Postgres Database |Database management
+|Data Studio (Looker Studio) |Dashboard and visualisation
+|GitHub |Version control and documentation
 
 
 ## Data Generation Methodology
@@ -203,12 +193,23 @@ The combined effect of early activation and onboarding completion was particular
   ### Friction Point Identification
 
 The Fogg Behaviour Model proposes that behaviour occurs when motivation, ability and triggers are present simultaneously. Conversion friction occurs when one or more of these factors are weakened.
-Onboarding Completion: Users who completed onboarding converted at a rate of 38.1%, compared to only 9.7% among users who did not complete onboarding. This suggests that onboarding significantly improves a user's ability to understand and adopt the platform.
 
-Support Ticket Friction: support ticket activity showed a clear negative relationship with conversion. Users raising no support tickets converted at 27.6%, compared to 23.3% for users with one to two tickets and 19.6% for users with three or more tickets. This indicates that unresolved friction and usability issues reduce purchase likelihood.
-Feature Adoption: feature adoption emerged as one of the strongest behavioural signals. Users with low feature adoption converted at 6.7%, compared to 16.7% for medium adopters and near-complete conversion among high adopters. This suggests that deeper product exploration significantly increases perceived value.
-Collaboration Signals : collaboration behaviour also demonstrated a strong relationship with conversion. Users who invited three or more team members achieved a conversion rate of 43.5%, compared to approximately 10% among users with little or no collaboration activity.
-This finding aligns with SaaS industry research showing that collaborative workflows increase product stickiness, strengthen perceived value and create higher switching costs. Collectively, these findings indicate that onboarding completion, feature adoption, collaboration and friction reduction represent key opportunities for improving trial conversion performance.
+Onboarding Completion:
+Users who completed onboarding converted at a rate of 38.1%, compared to only 9.7% among users who did not complete onboarding. This suggests that onboarding significantly improves a user's ability to understand and adopt the platform.
+
+
+Support Ticket Friction:
+support ticket activity showed a clear negative relationship with conversion. Users raising no support tickets converted at 27.6%, compared to 23.3% for users with one to two tickets and 19.6% for users with three or more tickets. This indicates that unresolved friction and usability issues reduce purchase likelihood.
+
+
+Feature Adoption:
+feature adoption emerged as one of the strongest behavioural signals. Users with low feature adoption converted at 6.7%, compared to 16.7% for medium adopters and near-complete conversion among high adopters. This suggests that deeper product exploration significantly increases perceived value.
+
+
+Collaboration Signals : 
+collaboration behaviour also demonstrated a strong relationship with conversion. Users who invited three or more team members achieved a conversion rate of 43.5%, compared to approximately 10% among users with little or no collaboration activity.
+
+These findings aligns with SaaS industry research showing that collaborative workflows increase product stickiness, strengthen perceived value and create higher switching costs. Collectively, these findings indicate that onboarding completion, feature adoption, collaboration and friction reduction represent key opportunities for improving trial conversion performance.
 
 
  ### Conversion Risk Scoring (Rule based scoring using behavioural thresholds)
@@ -223,27 +224,21 @@ Behavioural friction indicators such as support ticket volume, cognitive load an
 Users were segmented into four risk categories:
 
 High Risk (0–25)
-Medium Risk (26–50)
-Low Risk (51–75)
-Very Likely to Convert (76–100)
-The average behavioural risk score across all users was 36.0 out of 100.
-Risk segmentation produced meaningful separation between user groups:
 
-Segment
-Users
-Actual Conversion Rate
-High Risk
-1,907
-1.6%
-Medium Risk
-1,764
-13.0%
-Low Risk
-975
-52.7%
-Very Likely to Convert
-354
-95.2%
+Medium Risk (26–50)
+
+Low Risk (51–75)
+
+Very Likely to Convert (76–100)
+
+The average behavioural risk score across all users was 36.0 out of 100. Risk segmentation produced meaningful separation between user groups:
+
+|Segment |Users |Actual Conversion Rate
+| :--- | :---: | ---: 
+|High Risk |1,907 |1.6%
+|Medium Risk |1,764 |13.0%
+|Low Risk |975 |52.7%
+|Very Likely to Convert |354 |95.2%
 
 
 The substantial differences between segments indicate that behavioural signals successfully distinguish users with varying levels of purchase intent. This framework provides a practical method for customer success and growth teams to prioritise interventions and allocate resources towards users who exhibit high churn risk.
@@ -254,55 +249,73 @@ The substantial differences between segments indicate that behavioural signals s
  ### Key Findings
 
 Several consistent behavioural patterns emerged throughout the analysis.
+
 Behavioural engagement is the strongest conversion driver.
+
 Demographic factors such as industry, company size and country showed only modest differences in conversion rates. Whereas, behavioural metrics demonstrated substantial separation between converted and churned users. Users who logged in frequently, remained active longer, explored more features and spent more time using the platform converted at significantly higher rates.
 
+
 Early activation is critical.
+
 Users who logged into the platform within the first three days converted at a rate of 32.9%, compared to only 12.7% among users who did not activate early. This represents a 2.6x increase in conversion likelihood and strongly supports the early activation principle commonly reported in SaaS research by agencies such as: Intercom, HubSpot and Mixpanel.
 Onboarding completion has a major impact
 Users who completed onboarding converted at 38.1%, while users with incomplete onboarding converted at only 9.7%. This finding aligns with the Fogg Behaviour Model, suggesting that effective onboarding increases user ability and reduces friction during product adoption.
 
+
 Cognitive load reduces conversion
+
 Churned users experienced higher complexity scores and lower feature adoption than converted users. Conversion rates dropped sharply as cognitive load increased, supporting Cognitive Load Theory (Sweller, 1988), which proposes that excessive mental effort negatively affects engagement and decision-making.
 
+
 Present bias affects trial behaviour
+
 Users who exhibited last-minute activity patterns converted less frequently than users who engaged consistently throughout the trial. Additionally, converted users remained engaged until approximately Day 10.6 of the trial, while churned users disengaged around Day 5.0. This supports the concept of present bias, where users postpone evaluation until it becomes too late to experience meaningful product value.
 
+
 Collaboration and product adoption increase conversion
+
 Users who invited three or more team members converted at 43.5%, compared to roughly 10% among users with little or no collaboration activity. Similarly, deeper feature adoption was associated with dramatically higher conversion rates. These findings reinforce SaaS industry research showing that collaborative usage and product integration increase product stickiness and perceived value.
 
 
   ### Business Recommendations
   
 The findings suggest that the Saas company should focus less on broad acquisition metrics and more on behavioural signals that indicate whether a trial user is likely to become a paying customer:
+
 Prioritise early activation:
+
 The first three days of the trial period are the most important stage of the customer journey. NovaMind should implement guided onboarding, activation checklists and automated product tours that encourage users to experience value immediately after sign-up.
 
+
 Improve onboarding simplicity:
+
 Medium cognitive load was strongly associated with churn. The onboarding experience should be simplified by reducing unnecessary complexity and guiding users toward a small number of high-impact actions before exposing advanced functionality.
 
+
 Increase feature adoption:
+
 Users who explored more features converted at much higher rates. NovaMind should use in-app prompts, personalised recommendations and feature discovery campaigns to encourage broader product adoption during the trial period.
 
+
 Encourage collaborative usage:
+
 Team collaboration was one of the strongest positive conversion signals. The platform should actively encourage users to invite teammates and integrate collaborative workflows, as multi-user adoption increases perceived value and switching costs.
 
+
 Reduce friction proactively:
+
 Support ticket volume and high complexity scores were associated with lower conversion rates. NovaMind should identify users experiencing repeated friction and provide proactive assistance before trial expiry through live support, onboarding assistance or targeted educational content.
 
+
 Implement a behavioural resource prioritisation framework:
+
 Customer success and sales resources should be allocated according to behavioural risk segments rather than equally across all trial users.
 
-Risk Segment
-Recommended Action
-High Risk (0–25)
-Minimal human intervention. Use automated nurture emails, self-service onboarding content and low-cost retention efforts, as these users exhibit strong churn signals and low expected return on resource investment.
-Medium Risk (26–50)
-Provide educational campaigns, onboarding reminders and light-touch engagement. These users show some interest but still experience friction or inconsistent engagement.
-Low Risk (51–75)
-Prioritise customer success outreach, conversion incentives and product guidance. More than half of users in this segment converted, making them a high-value opportunity group.
-Very Likely to Convert (76–100)
-Fast-track sales engagement, upselling and expansion opportunities. These users demonstrate strong behavioural commitment and are the highest-probability revenue segment.
+|Risk Segment |Recommended Actions
+| :--- | :---:
+|High Risk (0–25) |Minimal human intervention. Use automated nurture emails, self-service onboarding content and low-cost retention efforts, as these users exhibit strong churn signals and low expected return on resource investment.
+|Medium Risk (26–50) |Provide educational campaigns, onboarding reminders and light-touch engagement. These users show some interest but still experience friction or inconsistent engagement.
+|Low Risk (51–75) |Prioritise customer success outreach, conversion incentives and product guidance. More than half of users in this segment converted, making them a high-value opportunity group.
+|Very Likely to Convert (76–100) |Fast-track sales engagement, upselling and expansion opportunities. These users demonstrate strong behavioural commitment and are the highest-probability revenue segment.
 
 This approach allows NovaMind to concentrate human effort on users with the highest expected return while reducing time and cost spent on users who are unlikely to convert.
 
