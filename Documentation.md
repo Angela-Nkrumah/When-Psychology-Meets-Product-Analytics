@@ -49,7 +49,7 @@
 
 ## Project Overview
 
-This project bridges behavioural psychology and product analytics to understand why SaaS trial users do not convert to paid customers. Using Python for data generation, feature engineering and machine learning, Azure SQL for cloud data storage, and Looker Studio for visualisation, this analysis identifies psychological friction points in the trial journey and builds a conversion risk scoring model to help SaaS businesses intervene before users churn in order to help teams have a data-driven idea of the amount of resources needed to gain paid clients.
+This project bridges behavioural psychology and product analytics to understand why SaaS trial users do not convert to paid customers. Using Python for data generation, feature engineering and machine learning, Supabase for cloud data storage, and Looker Studio for visualisation, this analysis identifies psychological friction points in the trial journey and builds a conversion risk scoring model to help SaaS businesses intervene before users churn in order to help teams have a data-driven idea of the amount of resources needed to gain paid clients.
 
 <img width="623" height="389" alt="Screenshot 2026-06-19 232842" src="https://github.com/user-attachments/assets/58b64780-69fe-44bc-95ba-166b09b8364b" />
 
